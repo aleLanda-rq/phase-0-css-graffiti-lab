@@ -1,1 +1,18 @@
 /* write your override styles here */
+.tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: block;
+  }
+  .wall {
+    position: relative;
+    margin: 40px auto;
+    width: 980px;
+    height: 622px;
+    background: url(../images/wall.jpg) no-repeat center;
+    -moz-box-shadow: 15px 15px 47px rgb(139, 26, 45), -15px -15px 47px aqua;
+    -webkit-box-shadow: 15px 15px 47px rgb(139,26,45) -15px -15px 47px aqua;
+    box-shadow: 15px 15px 47px rgb(139,26,45), -15px -15px 47px aqua;
+    border: 15px solid black;
+    border-bottom: 60px solid white;
+  }
